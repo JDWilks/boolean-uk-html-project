@@ -1,0 +1,160 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  /* max-width: 1200px; */
+
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+
+  width: 100vw;;
+
+  background-color: black;
+  height: 100vh;
+}
+
+a {
+  transition: ease-in;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  border-bottom: 2px solid white;
+  color: white;
+  padding-bottom: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  
+  font-family: "Cabin", sans-serif;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px #b9b9b9;
+  margin-left: 50px;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.section-heading {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: baseline;
+  grid-auto-columns: max-content;
+  grid-gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.images-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 40px;
+  overflow-x: scroll;
+  
+}
+
+.images-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.all-images {
+  height: 500px;
+}
+
+/* ///// sectin styling //// */
+
+.header {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  background-image: url(assets/images/background-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation {
+  margin: 20px 20px;
+}
+
+ul {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.main-photo {
+  display: grid;
+  width: 50px;
+}
+
+.header-pic {
+  width: 800px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+/* ///// sectin styling //// */
+
+.painting {
+  height: 100vh;
+ 
+
+/* ///// sectin styling //// */
+
+.graphics {
+  height: 100vh;
+  
+}
+
+/* ///// sectin styling //// */
+
+.photography {
+  height: 100vh;
+  
+}
+
+/* ///// sectin styling //// */
+
+.textures {
+  height: 100vh;
+
+}
+
+/* ///// sectin styling //// */
+
+.collaborations {
+  height: 100vh;
+
+}
+/* ///// sectin styling //// */
+
+.random {
+  height: 100vh;
+ 
+}
+
+/* ///// sectin styling //// */
+
+.footer {
+  height: 100px;
+  
+}
