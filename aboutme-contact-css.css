@@ -83,6 +83,8 @@ li {
   height: 550px;
   background: linear-gradient(to top, #000000 0%, #c2c2c2 100%);
   border-radius: 5px;
+  /* display: contents; */
+  /* border: 1px solid grey; */
 }
 
 .main {
@@ -143,6 +145,14 @@ h3 {
   text-align: justify;
 }
 
+h4 {
+  font-size: 2rem;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
 p {
   padding-bottom: 5px;
 }
@@ -151,5 +161,64 @@ p {
 
 .grid-right {
   display: grid;
+  gri
   place-content: center;
 }
+
+.contact {
+  width: 350px;
+  height: 250px;
+  /* background: linear-gradient(to top, #000000 0%, #c2c2c2 100%); */
+  border-radius: 5px;
+  display: contents;
+}
+
+label {
+  line-height: 3;
+  color: white;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.submit-button {
+  display: block;
+  justify-content: center;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  justify-items: center;
+  width: 250px;
+  transition: 2s;
+}
+
+.submit-button:hover {
+  background-image: linear-gradient(315deg, #647dee 0%, #7f53ac 74%);
+  box-shadow: 5px 5px 10px rgb(46, 45, 45);
+}
+
+.move-button {
+  display: grid;
+  place-content: center;
+  margin-top: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.submissionfield {
+  width: 250px;
+  font-weight: lighter;
+  display: list-item;
+  line-height: 2;
+  background: transparent;
+  border-bottom: 1px solid white;
+  margin-left: 10px;
+}
+
+/* textarea:focus,
+input:focus {
+  outline: none;
+} */
