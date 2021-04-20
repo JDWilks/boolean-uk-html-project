@@ -161,8 +161,9 @@ p {
 
 .grid-right {
   display: grid;
-  gri
-  place-content: center;
+  /* place-content: center; */
+  margin-inline-end: auto;
+  padding-top: 72px;
 }
 
 .contact {
@@ -218,7 +219,8 @@ textarea {
   margin-left: 10px;
 }
 
-/* textarea:focus,
+textarea:focus,
 input:focus {
+  color: white;
   outline: none;
-} */
+}
