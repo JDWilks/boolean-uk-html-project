@@ -56,21 +56,8 @@ h4 {
 }
 
 .section-heading {
-  /* display: grid;
-  grid-auto-flow: column;
-  align-items: baseline;
-  grid-auto-columns: max-content;
-  grid-gap: 20px;
-  padding-top: 20px;
-  padding-bottom: 30px; */
-
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  padding-top: 20px;
-  padding-bottom: 30px; */
-
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-auto-flow: column;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -81,12 +68,24 @@ span {
   color: grey;
   margin-right: 20px;
   margin-left: 20px;
+  text-shadow: none;
 }
 
-.section-name {
-  /* display: grid;
-justify-content: left; */
+.quick-menu:hover {
+  border-bottom: none;
+  color: red;
+}
 
+/* #section-quick-menu {
+  text-decoration: none;
+}
+
+.section-name > span {
+  border-bottom: none;
+  text-decoration: none;
+} */
+
+.section-name {
   display: grid;
   justify-content: left;
   grid-gap: 10px;
@@ -142,11 +141,11 @@ justify-content: left; */
   height: 100vh;
   display: grid;
   grid-template-rows: 10% 90%;
-  background-image: url(assets/images/background-header.jpg);
+  background-image: url(assets/images/background-header2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 99%;
+  background-size: 90%;
 }
 
 .navigation {
@@ -236,4 +235,23 @@ p {
 .footer-copy {
   text-align: right;
   margin-right: 100px;
+}
+
+.social-icons {
+  width: 20px;
+  padding: 0 2px 0 2px;
+}
+
+.social-icons:hover {
+  opacity: 0.5;
+}
+
+.social-links:hover {
+  border-bottom: none;
+}
+
+.endimage:hover {
+  border-bottom: none;
+  padding: 0;
+  scroll-behavior: [ auto | smooth ];
 }
