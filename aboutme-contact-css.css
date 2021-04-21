@@ -153,6 +153,14 @@ h4 {
   margin-left: 10px;
 }
 
+h5 {
+  font-size: 0.9rem;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+
 p {
   padding-bottom: 5px;
 }
@@ -164,6 +172,7 @@ p {
   /* place-content: center; */
   margin-inline-end: auto;
   padding-top: 72px;
+  grid-auto-rows: max-content;
 }
 
 .contact {
@@ -223,4 +232,8 @@ textarea:focus,
 input:focus {
   color: white;
   outline: none;
+}
+
+.map {
+  margin-left: 10px;
 }
