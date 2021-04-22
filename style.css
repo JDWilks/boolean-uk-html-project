@@ -255,3 +255,86 @@ p {
   padding: 0;
   scroll-behavior: [ auto | smooth ];
 }
+
+/* //// iphone x resize //// */
+
+@media screen and (max-width: 375px) {
+  body {
+    display: grid;
+  }
+
+  .wrapper {
+    padding-bottom: 0px;
+    height: initial;
+  }
+
+  .header {
+    background-size: 217%;
+    grid-template-rows: 25% 75%;
+    background-position: bottom;
+  }
+
+  ul {
+    display: grid;
+    grid: none;
+    grid-gap: 23px;
+    justify-content: left;
+  }
+
+  section-heading {
+    display: grid;
+  }
+
+  .section-name {
+    display: grid;
+  }
+
+  h2 {
+    margin-left: 10px;
+  }
+
+  #section-quick-menu {
+    margin-left: 0;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .images-grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 40px;
+    overflow-x: scroll;
+    margin-left: 10px;
+  }
+
+  .all-images {
+    height: 355px;
+    opacity: 1;
+  }
+
+  .painting,
+  .graphics,
+  .photography,
+  .collaborations,
+  .random,
+  .textures {
+    height: initial;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    margin-left: 0px;
+  }
+
+  .footer-copy {
+    text-align: center;
+    margin-right: 0px;
+    font-size: 14px;
+  }
+}
