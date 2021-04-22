@@ -141,11 +141,13 @@ span {
   height: 100vh;
   display: grid;
   grid-template-rows: 10% 90%;
+}
+
+.header .hero-image {
   background-image: url(assets/images/background-header2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 90%;
 }
 
 .navigation {
@@ -184,6 +186,7 @@ p {
 .enquire:hover {
   color: red;
   font-size: 0.7rem;
+  border-bottom: none;
 }
 
 /* ///// section styling //// */
@@ -268,11 +271,11 @@ p {
     height: initial;
   }
 
-  .header {
+  /* .header {
     background-size: 217%;
     grid-template-rows: 25% 75%;
     background-position: bottom;
-  }
+  } */
 
   ul {
     display: grid;
@@ -291,6 +294,7 @@ p {
 
   h2 {
     margin-left: 10px;
+    font-size: 1.8rem;
   }
 
   #section-quick-menu {
@@ -307,12 +311,15 @@ p {
     grid-gap: 40px;
     overflow-x: scroll;
     margin-left: 10px;
+    margin-right: 10px;
   }
 
-  .all-images {
-    height: 355px;
+  /* .all-images {
+    height: 300px;
     opacity: 1;
-  }
+    width: 100%;
+    object-fit: cover;
+  } */
 
   .painting,
   .graphics,
@@ -333,8 +340,18 @@ p {
   }
 
   .footer-copy {
-    text-align: center;
     margin-right: 0px;
+    margin-left: 5px;
     font-size: 14px;
+    text-align: left;
   }
+
+  .image-name {
+    max-width: 35ch;
+  }
+
+  /* .image-card .all-images {
+    width: 100vw;
+    object-fit: cover;
+  } */
 }
